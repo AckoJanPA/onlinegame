@@ -1,0 +1,72 @@
+@font-face {
+    font-family: 'PixelFont';
+    src: url('Font/PixelFontAJP.ttf') format('woff2');
+  }
+
+body {
+    background-color: #ffffff;
+    color: #000000;
+    font-family: 'PixelFont';
+    font-size: smaller;
+    cursor: default;
+}
+
+p {
+    color: #3e3e3e;
+}
+
+button {
+  background-color: #2b2b2b; /* Gray background */
+  color: white;              /* White text */
+  padding: 6px 12px;           /* Some padding */
+  border: none;                /* No border */
+  border-radius: 4px;          /* Rounded corners */
+  cursor: pointer;             /* Pointer on hover */
+  font-size: 8px;              /* Bigger text */
+  transition: background-color 0.3s ease; /* Smooth hover effect */
+  transition: color 0.3s ease; /* Smooth hover effect */
+  font-family: 'PixelFont';
+}
+
+button:hover {
+  background-color: #cacaca; /* Darker gray on hover */
+  color: #2b2b2b;
+}
+
+button.terms {
+    background-color: #006aff; /* Blue background */
+    color: white;              /* White text */
+    padding: 12px 24px;          /* Some padding */
+    border: none;                /* No border */
+    border-radius: 8px;          /* Rounded corners */
+    cursor: pointer;             /* Pointer on hover */
+    font-size: 12px;             /* Bigger text */
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+    font-family: 'PixelFont';
+  }
+
+button.terms:hover {
+    background-color: #00419d; /* Darker blue on hover */
+}
+
+div {
+  margin: 10px;
+}
+
+div.center {
+  text-align: center;
+}
+
+a {
+  color: rgb(0, 135, 90);
+  line-height: 6;
+  transition: color 0.3s ease; /* Smooth hover effect */
+}
+
+a:hover {
+  color: rgb(0, 157, 171);
+}
+
+.small {
+  font-size: xx-small;
+}
