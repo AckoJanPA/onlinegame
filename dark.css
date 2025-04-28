@@ -1,7 +1,7 @@
 @font-face {
-    font-family: 'PixelFont';
-    src: url('Font/PixelFontAJP.ttf') format('woff2');
-  }
+  font-family: 'PixelFont';
+  src: url('PixelFontAJP.ttf');
+}
 
 body {
     background-color: #393939;
