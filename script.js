@@ -1,7 +1,7 @@
 function tos() {
   document.getElementById("viewport").innerHTML = `
-    <iframe src="0-1-0.html" width="75%" height="360"></iframe><br>
-    <a href="0-1-0.html" target="_blank"><button>Open game</button></a>
+    <iframe src="0-2-0.html" width="75%" height="360"></iframe><br>
+    <a href="0-2-0.html" target="_blank"><button>Open game</button></a>
     <a href="SpriteEditor.html" target="_blank"><button class="center">Open Icon Editor</button></a><br>
   `
   document.getElementById("AgreeToToS").innerHTML = `
